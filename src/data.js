@@ -20,7 +20,7 @@ export const experience = [
     role: 'Software Engineer',
     company: 'Relevantz Technology Services',
     location: 'Chennai, India',
-    period: '2025 — Present',
+    period: '2026 — Present',
     summary:
       'Build and maintain full-stack business applications, including ecommerce administration and warehouse management systems. Work across React interfaces and .NET APIs, with SQL Server for data storage, focusing on reliable workflows, clear data views, and efficient handling of operational records.',
     points: [
@@ -35,7 +35,7 @@ export const experience = [
     role: 'Junior Software Engineer',
     company: 'Relevantz Technology Services',
     location: 'Chennai, India',
-    period: '2023 — 2025',
+    period: '2024 — 2026',
     summary:
       'Contributed to full-stack learning and financial services prototypes using React, Redux, .NET, REST APIs, and relational databases. Helped build user and administrator workflows for course delivery, assessments, certificates, and credit card discovery.',
     points: [

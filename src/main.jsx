@@ -46,13 +46,13 @@ function App() {
           <p className="lead">{profile.bio}</p>
           <p className="status">● {profile.availability}</p>
           <div className="links">
-            <a href={profile.github}>
+            <a href={profile.github} target="_blank" rel="noopener noreferrer">
               <Github /> GitHub
             </a>
-            <a href={profile.linkedin}>
+            <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">
               <Linkedin /> LinkedIn
             </a>
-            <a href={'mailto:' + profile.email}>
+            <a href={'mailto:' + profile.email} target="_blank" rel="noopener noreferrer">
               <Mail /> Email
             </a>
           </div>

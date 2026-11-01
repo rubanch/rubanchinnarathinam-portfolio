@@ -7,7 +7,7 @@ export const profile = {
   intro: 'Complex problems, simple solutions—through engineering',
   bio: 'I’m a full-stack developer working with React and .NET to build reliable, maintainable applications. I’ve contributed to real-world projects, developing user interfaces and backend services with a focus on clean code and practical solutions.',
   github: 'https://github.com/rubanch',
-  linkedin: 'https://linkedin.com/in/yourusername',
+  linkedin: 'https://linkedin.com/in/rubanrathinam',
 };
 export const skills = [
   { title: 'Frontend', items: ['React', 'JavaScript', 'HTML & CSS', 'Accessible UI'] },

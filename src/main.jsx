@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client';
 import { ArrowUpRight, Github, Linkedin, Mail, Menu, X } from 'lucide-react';
 import { profile, skills, experience, projects, recognition } from './data';
 import './styles.css';
-import icon from '../assets/portfolio-icon.svg';
 
 function App() {
   const [filter, setFilter] = useState('All'),

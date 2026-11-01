@@ -15,7 +15,7 @@ function App() {
       <header>
         <div className="container bar">
           <a className="brand" href="#home">
-            <img src={icon} alt="" className="navbar-icon" />
+            {/* <img src={icon} alt="" className="navbar-icon" /> */}
             {profile.name}
           </a>
           <button className="menu" onClick={() => setOpen(!open)} aria-label="Toggle navigation">

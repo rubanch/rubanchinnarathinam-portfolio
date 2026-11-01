@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { ArrowUpRight, Github, Linkedin, Mail, Menu, X } from 'lucide-react';
 import { profile, skills, experience, projects, recognition } from './data';
 import './styles.css';
+import icon from "../asset/portfolio-icon.svg";
 
 function App() {
   const [filter, setFilter] = useState('All'),
@@ -14,7 +15,7 @@ function App() {
       <header>
         <div className="container bar">
           <a className="brand" href="#home">
-            {/* <img src={icon} alt="" className="navbar-icon" /> */}
+            <img src={icon} alt="" className="navbar-icon" />
             {profile.name}
           </a>
           <button className="menu" onClick={() => setOpen(!open)} aria-label="Toggle navigation">
